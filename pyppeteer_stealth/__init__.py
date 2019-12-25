@@ -22,5 +22,5 @@ async def stealth(page: Page) -> None:
     await navigator_plugins(page)
     await navigator_webdriver(page)
     await user_agent(page)
-    await webgl_vendor(page)
+    # await webgl_vendor(page)
     await window_outerdimensions(page)
